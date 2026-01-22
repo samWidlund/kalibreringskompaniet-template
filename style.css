@@ -84,7 +84,7 @@ body {
 
 #contactButton {
     position: absolute;
-    bottom: 38vh;
+    bottom: 30vh;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
