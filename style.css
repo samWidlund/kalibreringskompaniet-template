@@ -9,14 +9,6 @@ body {
     overflow-x: hidden;
 }
 
-#container {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
 #header {
     height: 10vh;
     width: 100%;
