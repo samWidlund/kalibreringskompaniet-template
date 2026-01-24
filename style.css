@@ -30,7 +30,7 @@ body {
 }
 
 #headerMenu {
-    font-size: 1.5rem;
+    font-size: larger;
     gap: 1vw;
     display: flex;
 }
@@ -140,6 +140,26 @@ body {
     background: linear-gradient(to bottom right, rgb(239, 246, 255), white);
 }
 
+#row {
+    display: flex;
+    flex-direction: row;
+}
+
+#row img {
+    height: auto;
+    width: 50%;
+
+}
+
+.omContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 50%;
+    height: auto;
+}
+
 .infoBarInfo h1, .infoBarInfo p {
     color: white;
 }
@@ -182,13 +202,19 @@ body {
     .portrait-video {
         display: block;
     }
-    
     .landscape-video {
         display: none;
     }
 
     #infoBar {
         font-size: medium;
+    }
+
+    #row {
+        flex-direction: column-reverse;
+    }
+    .omContainer {
+        width: 100%;
     }
 }
 
