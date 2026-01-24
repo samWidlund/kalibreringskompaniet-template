@@ -5,6 +5,9 @@
     font-family: 'Bebas Neue', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     overflow-x: hidden;
 }
@@ -103,7 +106,7 @@ body {
 #servicesPage {
     width: 100%;
     height: 100%;
-    padding: 1rem;
+    padding: 2rem;
     background: linear-gradient(to bottom right, rgb(239, 246, 255), white);
 }
 
@@ -111,16 +114,40 @@ body {
     text-align: center;
 }
 
+#infoBar {
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-size:x-large;
+}
+
+#om {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    background: linear-gradient(to bottom right, rgb(239, 246, 255), white);
+}
+
+.infoBarInfo h1, .infoBarInfo p {
+    color: white;
+}
+
 .flexContainer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     padding: 2rem;
 }
 
 .serviceCard {
     background-color: #f1f1f1;
-    padding: 2rem;
+    padding: 3rem;
     text-align: start;  
     font-size: 1.5rem;
     border-radius: 0.5rem;
@@ -132,7 +159,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.527), 0 6px 20px 0 rgba(0, 0, 0, 0.329);
 }
 
-.pageContainer  {
+.pageContainer {
     height: 100vh;
     width: 100%;
 }
