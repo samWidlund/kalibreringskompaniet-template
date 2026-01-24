@@ -1,6 +1,6 @@
 # kalibreringskompaniet-template
 
 ## backlog
-- services page
 - contact form
+    - google maps live map?
 - fix contactButton ios issue
