@@ -373,6 +373,10 @@ textarea {
     .omContainer {
         width: 100%;
     }
+
+    #headerMenu {
+        font-size: small;
+    }
 }
 
 @media (min-width: 640px) {
