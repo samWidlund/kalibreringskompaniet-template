@@ -98,6 +98,7 @@ body {
     border-radius: 5px;
     border: 1px solid black;    
     font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.7);
 
     /* remove mobile standard */
     -webkit-appearance: none;
