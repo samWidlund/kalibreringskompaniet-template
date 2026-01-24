@@ -193,6 +193,13 @@ body {
     font-weight: none;
 }
 
+.serviceCard .icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: rgb(30, 58, 138);
+    margin-bottom: 1rem;
+}
+
 .serviceCard:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.527), 0 6px 20px 0 rgba(0, 0, 0, 0.329);
 }
