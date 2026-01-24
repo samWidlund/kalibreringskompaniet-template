@@ -113,16 +113,22 @@ body {
 .flexContainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
+    gap: 2rem;
     padding: 2rem;
 }
 
-.flexContainer > div {
+.serviceCard {
     background-color: #f1f1f1;
     padding: 2rem;
-    text-align: center;  
+    text-align: start;  
     font-size: 1.5rem;
     border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: none;
+}
+
+.serviceCard:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.527), 0 6px 20px 0 rgba(0, 0, 0, 0.329);
 }
 
 .pageContainer  {
