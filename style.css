@@ -111,7 +111,7 @@ body {
     font-family: 'Bebas Neue', sans-serif;
     color: black;
     position: absolute;
-    bottom: 30vh;
+    bottom: 25vh;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
