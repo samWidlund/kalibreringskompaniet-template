@@ -401,6 +401,14 @@ textarea {
     #headerMenu {
         font-size: small;
     }
+
+    #contactButton {
+        bottom: 18vh;
+    }
+    #subtitle {
+        font-size: clamp(0.8rem, 3vw, 1rem);
+        transform: translate(-50%, 10px);
+    }
 }
 
 @media (min-width: 640px) {
