@@ -89,6 +89,24 @@ body {
     pointer-events: none;
 }
 
+#subtitle {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    z-index: 1;
+    text-align: center;
+    padding: 0 2rem;
+    color: white;
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    max-width: 800px;
+    margin: 0 auto;
+    top: 15%;
+    text-shadow: 0 2px 18px rgba(0, 0, 0, 0.65);
+    pointer-events: none;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
 #contactButton {
     font-family: 'Bebas Neue', sans-serif;
     color: black;
