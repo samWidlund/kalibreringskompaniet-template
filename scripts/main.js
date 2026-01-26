@@ -15,5 +15,20 @@ portraitVideo.load();
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
     alert('Tack för ditt meddelande! Vi återkommer snart.');
+
+    // get form values
+    const name = document.getElementById('name').value.trim();
+    const company = document.getElementById('company').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    // debug
+    console.log(name)
+    console.log(company)
+    console.log(email)
+    console.log(phone)
+    console.log(message)
+
     this.reset();
 });
